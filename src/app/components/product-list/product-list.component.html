@@ -1,4 +1,8 @@
-<p>product-list works!</p>
-<div *ngFor="let item of list">
-    {{ item.title }}
+<div class="product-list">
+    <div class="product-list_item" *ngFor="let item of list">
+        <img src="{{ item.img }}" alt="{{ item.title }}">
+        <div>{{ item.title }}</div>
+        <div class="product-list_item_price">{{ item.price }}</div>
+        <div class="product-list_item_desc">{{ item.desc }}</div>
+    </div>
 </div>
