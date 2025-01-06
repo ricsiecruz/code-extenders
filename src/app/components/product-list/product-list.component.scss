@@ -1,7 +1,16 @@
+@import 'bootstrap/scss/_functions';
+@import 'bootstrap/scss/_variables';
+@import 'bootstrap/scss/mixins/_breakpoints';
+
 .product-list {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 40px; 
+
+    @include media-breakpoint-down(sm) {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
 
     &_item {
         width: 320px;
@@ -10,6 +19,9 @@
         font-size: 18px;
         line-height: 25px;
         font-weight: 400;
+        @include media-breakpoint-down(sm) {
+            width: 164px;
+        }
 
         img {
             width: 100%;

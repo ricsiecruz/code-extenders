@@ -1,6 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'bootstrap/scss/_functions';
+@import 'bootstrap/scss/_variables';
+@import 'bootstrap/scss/mixins/_breakpoints';
 
 body {
     padding: 60px;
     font-family: 'Lato';
+    @include media-breakpoint-down(sm) {
+        padding: 10px;
+    }
 }

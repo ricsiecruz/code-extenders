@@ -1,6 +1,17 @@
+@import 'bootstrap/scss/_functions';
+@import 'bootstrap/scss/_variables';
+@import 'bootstrap/scss/mixins/_breakpoints';
+
 .product-details {
     display: flex;
     column-gap: 20px;
+    @include media-breakpoint-down(sm) {
+        display: block;
+    }
+
+    img {
+        width: 100%;
+    }
 
     &_item {
         display: block;

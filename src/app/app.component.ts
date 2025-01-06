@@ -15,5 +15,14 @@ import { RouterModule, RouterOutlet } from '@angular/router';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  
+  wishlistCount: number = 0;
+
+  constructor(private serviceService: ServiceService) {}
+
+  ngOnInit(): void {
+    // Subscribe to the wishlist observable to get the count
+    this.serviceService.getWishlist().subscribe(wishlist => {
+      this.wishlistCount = wishlist.length;  // Update the count based on the wishlist items
+    });
+  }
 }
