@@ -22,6 +22,9 @@
         @include media-breakpoint-down(sm) {
             width: 164px;
         }
+        &:hover {
+            cursor: pointer;
+        }
 
         img {
             width: 100%;
