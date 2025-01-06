@@ -6,24 +6,12 @@ import { map, Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ServiceService {
-  apiUrl = 'assets/suppliers.json';
-  productsUrl = 'assets/products.json';
+  apiUrl = 'assets/products.json';
 
   constructor(private http: HttpClient) {}
 
-  getSuppliers(): Observable<any> {
-    console.log('Fetching suppliers from', this.apiUrl);
+  getProductList(): Observable<any> {
+    console.log('Fetching products from', this.apiUrl);
     return this.http.get<any>(this.apiUrl);
-  }
-
-  getProductsBySupplierId(supplierId: string): Observable<any> {
-    return this.http.get<any>(this.productsUrl).pipe(
-      map((response) => {
-        return {
-          ...response,
-          data: response.data.filter((product: any) => product.supplierId === supplierId)
-        };
-      })
-    );
   }
 }
