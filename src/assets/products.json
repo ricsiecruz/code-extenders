@@ -1,50 +1,74 @@
 [
     {
+      "id": 1,
       "title": "Exfoliating Body Scrub",
       "desc": "Balancing laidback LA sensibilities with a rock & roll New York edge, Joe’s Jeans crafts flawless, premium quality pairs. Since 2001, a distinctive, fit-first approach to classic silhouettes has made the brand a forerunner in premium denim",
       "price": "$290.00",
-      "img": "assets/img/product-02-480x638.jpg"
+      "img": "assets/img/product-02-480x638.jpg",
+      "sku": "MEGA-JEWE-21",
+      "brand": "Paloma Picasso®"
     },
     {
+      "id": 2,
       "title": "Shea Butter Body Lotion",
       "desc": "Aliquam odio eros, vulputate eu gravida at, cursus in quam. Nullam bibendum lacus lectus, non scelerisque orci consectetur a. Nulla gravida, lacus eu mattis convallis, purus ex porttitor lorem, vitae iaculis felis nisi non velit",
       "price": "$350.00",
-      "img": "assets/img/product-05-480x638.jpg"
+      "img": "assets/img/product-05-480x638.jpg",
+      "sku": "MEGA-JEWE-21",
+      "brand": "Paloma Picasso®"
     },
     {
+      "id": 3,
       "title": "Floral Scented Perfume",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit tellus eget leo efficitur, ut tristique nibh tempor. Donec scelerisque massa sed quam pretium aliquam. In hac habitasse platea dictumst",
       "price": "$210.00",
-      "img": "assets/img/product-09-480x638.jpg"
+      "img": "assets/img/product-09-480x638.jpg",
+      "sku": "MEGA-JEWE-21",
+      "brand": "Paloma Picasso®"
     },
     {
+      "id": 4,
       "title": "Medium Hold Hair Gel",
       "desc": "Quisque malesuada iaculis dui, vitae tincidunt arcu fermentum eu. Vivamus euismod blandit tellus. Donec vehicula nulla ut ante pretium congue. Donec lobortis leo sed diam lacinia, ac mollis tellus interdum",
       "price": "$245.00",
-      "img": "assets/img/product-11-480x638.jpg"
+      "img": "assets/img/product-11-480x638.jpg",
+      "sku": "MEGA-JEWE-21",
+      "brand": "Paloma Picasso®"
     },
     {
+      "id": 5,
       "title": "Strong Hold Hair Styling Wax",
       "desc": "Sed varius nibh eu ligula ullamcorper, sed varius ligula mattis. Morbi eu elit mattis, condimentum nibh sit amet, vestibulum nibh. Vivamus diam lorem, porta non tempor et, ornare a leo",
       "price": "$199.00",
-      "img": "assets/img/product-12-480x638.jpg"
+      "img": "assets/img/product-12-480x638.jpg",
+      "sku": "MEGA-JEWE-21",
+      "brand": "Paloma Picasso®"
     },
     {
+      "id": 6,
       "title": "Argan Oil Hair Treatment",
       "desc": "In gravida mi vehicula mauris convallis, nec dictum metus iaculis. Sed a nisl finibus, semper sapien vel, venenatis nisi.Quisque et felis tempus leo euismod tincidunt. Phasellus vel mi purus. Donec nec elementum tellus, nec faucibus nisi",
       "price": "$270.00",
-      "img": "assets/img/product-16-480x638.jpg"
+      "img": "assets/img/product-16-480x638.jpg",
+      "sku": "MEGA-JEWE-21",
+      "brand": "Paloma Picasso®"
     },
     {
+      "id": 7,
       "title": "Moisturizing Conditioner",
       "desc": "Nulla nec vulputate nisl, ac dapibus nibh. Donec placerat a dolor sed sodales. Suspendisse nibh elit, gravida et ligula a, rutrum gravida arcu. Vivamus augue purus, sodales sed consectetur vitae, scelerisque nec arcu",
       "price": "$350.00",
-      "img": "assets/img/product-18-480x638.jpg"
+      "img": "assets/img/product-18-480x638.jpg",
+      "sku": "MEGA-JEWE-21",
+      "brand": "Paloma Picasso®"
     },
     {
+      "id": 8,
       "title": "Sulfate-Free Shampoo",
       "desc": "Mauris vitae gravida justo, ut vestibulum leo. Nam enim lacus, sodales a elit et, commodo sodales metus. Integer ex massa, vestibulum ac tortor eget, commodo consectetur sem. Nulla tincidunt congue massa et gravida",
       "price": "$180.00",
-      "img": "assets/img/product-19-480x638.jpg"
+      "img": "assets/img/product-19-480x638.jpg",
+      "sku": "MEGA-JEWE-21",
+      "brand": "Paloma Picasso®"
     }
 ]

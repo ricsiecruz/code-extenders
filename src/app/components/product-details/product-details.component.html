@@ -1,1 +1,13 @@
-<p>product-details works!</p>
+<div *ngIf="productDetails$ | async as productDetails" class="product-details">
+    <img [src]="productDetails.img" alt="{{ productDetails.title }}">
+    <div class="product-details_item">
+        <div>{{ productDetails.title }}</div>
+        <div class="product-details_item_price">{{ productDetails.price }}</div>
+        <div class="product-details_item_desc">{{ productDetails.desc }}</div>
+        <div class="product-details_item_tags">
+            <div>SKU: <span>{{ productDetails.sku }}</span></div>
+            <div>Brand: <span>{{ productDetails.brand }}</span></div>
+        </div>
+    </div>
+</div>
+  

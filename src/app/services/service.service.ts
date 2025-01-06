@@ -14,4 +14,11 @@ export class ServiceService {
     console.log('Fetching products from', this.apiUrl);
     return this.http.get<any>(this.apiUrl);
   }
+
+  getProductDetails(id: number): Observable<any> {
+    return this.getProductList().pipe(
+      map(products => products.find((product: { id: number; }) => product.id === id))
+    );
+  }
+  
 }

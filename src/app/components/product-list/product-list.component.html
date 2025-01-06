@@ -1,5 +1,5 @@
 <div class="product-list">
-    <div class="product-list_item" *ngFor="let item of list">
+    <div class="product-list_item" *ngFor="let item of list" (click)="navigateToProduct(item.id)">
         <img src="{{ item.img }}" alt="{{ item.title }}">
         <div>{{ item.title }}</div>
         <div class="product-list_item_price">{{ item.price }}</div>
