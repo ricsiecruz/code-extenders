@@ -11,6 +11,25 @@
         color: var(--tb-button-color, #3a454f);
         text-align: left;
 
+        &_wishlist {
+            font-size: 14px;
+            align-items: center;
+            display: flex;
+            column-gap: 5px;
+            svg {
+                width: 20px;
+            }
+            &.wishlist-added {
+                color: red;  /* Change text color to red */
+                svg {
+                    fill: red;  /* Change SVG icon color to red */
+                }
+            }
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
         &_price {
             color: var(--tb-woo-price-sale, #c00);
             font-size: 30px;

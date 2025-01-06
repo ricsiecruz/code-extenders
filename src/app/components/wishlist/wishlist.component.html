@@ -1,0 +1,15 @@
+<div *ngIf="wishlist.length > 0; else noWishlist">
+    <div *ngFor="let product of wishlist" class="product-list">
+      <div *ngIf="product && product.title" class="product-list_item">
+        <img [src]="product.img" alt="{{ product.title }}">
+        <div>{{ product.title }}</div>
+        <div class="product-list_item_price">{{ product.price }}</div>
+        <div class="product-list_item_desc">{{ product.desc }}</div>
+      </div>
+    </div>
+</div>
+  
+<ng-template #noWishlist>
+    <div>No products in your wishlist yet!</div>
+</ng-template>
+  
