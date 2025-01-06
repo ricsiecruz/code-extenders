@@ -2,7 +2,7 @@ TO RUN IN LOCAL:
 ng serve
 
 TO DEPLOY IN GITHUB
-ng build --base-href "https://ricsiecruz.github.io/caplinq/"
+ng build --base-href "https://ricsiecruz.github.io/code-extenders/"
 
 this will generate docs folder. make sure where you built is same in GitHub Pages
 
